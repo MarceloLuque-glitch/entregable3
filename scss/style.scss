@@ -1,6 +1,4 @@
-$primari-color : rgb(85, 85, 36);
-
-
+$primari-color:#343a40;
 body{
-    background-color: $primari-color;
+    $primari-color:$primari-color;
 }
