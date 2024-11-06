@@ -1,1 +1,15 @@
+body {
+  background-color: #343a40;
+}
 
+nav {
+  display: grid;
+  grid-area: row;
+  background-color: yellowgreen;
+}
+nav div .menu-1 menu-2 {
+  padding: 5px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
