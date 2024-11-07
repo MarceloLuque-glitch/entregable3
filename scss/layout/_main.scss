@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 2rem;
+    padding: 1.25rem;
+    border-radius: 2px; 
+    background-image: url(../img/fondo1.png);
+                            .text-center{
+                             text-align: center;
+                                color: greenyellow;
+                                border-bottom: 5px solid black;
+                                }
+                                .Controls{
+                                    width: 100%;
+                                     padding: 10px;
+                                     border-radius: 4px;
+                                    margin-bottom: 16px;
+                                        }    
+                                         .termino-politcas{
+                                            text-align: center;
+                                            color: aquamarine;
+                                            }
+                                            .button-registrar{
+                                                    background-color: #2957ba;
+                                                    width: 100%;
+                                                    border-radius: 4px;
+                                                    padding: .5rem;
+                                                    }
+                                                    .button-ingreso{
+                                                        background-color: #2957ba;
+                                                    width: 100%;
+                                                    border-radius: 4px;
+                                                    padding: .5rem;
+                                                    }
+    
+}
+

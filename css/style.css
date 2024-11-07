@@ -1,6 +1,76 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252B;
+}
+
+footer {
+  background-color: #FFF;
+  position: relative;
+  position: absolute;
+}
+footer footer::before {
+  filter: grayscale(1) opacity(0.2);
+  background-position: 50%;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 50%;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url(../img/register_bg.jpg);
+}
+
+header .bg-azeritha {
+  background-color: #343a40;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 2rem;
+  padding: 1.25rem;
+  border-radius: 2px;
+  background-image: url(../img/fondo1.png);
+}
+main .text-center {
+  text-align: center;
+  color: greenyellow;
+  border-bottom: 5px solid black;
+}
+main .Controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+main .termino-politcas {
+  text-align: center;
+  color: aquamarine;
+}
+main .button-registrar {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+main .button-ingreso {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
