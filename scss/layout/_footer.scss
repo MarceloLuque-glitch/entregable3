@@ -1,19 +1,18 @@
 footer{
     background-color: #FFF;
     position: relative;
+}
+footer::before{
     position: absolute;
-    
-        footer::before{
-        filter: grayscale(1) opacity(.2);
-        background-position: 50%;
-        content: "";
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding: 50%;
-        background-size: cover;
-        box-sizing: border-box;
-        background-image: url(../img/register_bg.jpg);
-                         }
- }
+    filter: grayscale(1) opacity(.2);
+    background-position: 50%;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../img/register_bg.jpg);
+}
