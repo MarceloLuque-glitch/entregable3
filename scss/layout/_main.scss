@@ -69,9 +69,39 @@ main{
  
 }
 main{
-    .container{
-        $grid-columns:      3;
-$grid-gutter-width: 1.5rem;
-$grid-row-columns:  3;
+    .section{
+        display: grid;
+        grid-template-columns:  repeat(2, minmax(0, 1fr));
+        gap: 1.25rem;
+        }
+        .contenido-grid{
+            display: grid;
+            $grid-colums: 4;
+            $grid-gutter-width:1.5rem;
+            $grid-row-colums: 4;
+        }
+        .adaptable{
+              
+            width: 100%;
+            padding: .5rem;
+            margin: .5rem;
+            border-radius: 4px;
+            gap: 1.25rem;
+
+        }
+
+}
+main{
+    h1{
+        color:aquamarine ;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+         color: greenyellow;
+         
     }
 }
