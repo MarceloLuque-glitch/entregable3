@@ -80,11 +80,18 @@ main .button-ingreso {
 
 main .biblioteca-fondo {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   box-sizing: border-box;
   margin: 2rem;
   padding: 1.25rem;
   border-radius: 2px;
+  gap: 1.25rem;
+}
+main .boton-buscar {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
