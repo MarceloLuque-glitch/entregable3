@@ -1,0 +1,20 @@
+@mixin boton{
+    background-color: #2957ba;
+    width: 100%;
+    border-radius: 4px;
+    padding: .5rem;
+    text-decoration: none;  
+}
+@mixin flex{
+    display: flex;
+    justify-content: center;
+
+}
+.button-registrar{
+    @include boton;
+    @include flex;
+}
+.button-ingreso{
+    @include boton;
+    @include flex;
+}

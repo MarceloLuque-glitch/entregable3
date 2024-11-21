@@ -65,18 +65,6 @@ main .termino-politcas {
   text-align: center;
   color: aquamarine;
 }
-main .button-registrar {
-  background-color: #2957ba;
-  width: 100%;
-  border-radius: 4px;
-  padding: 0.5rem;
-}
-main .button-ingreso {
-  background-color: #2957ba;
-  width: 100%;
-  border-radius: 4px;
-  padding: 0.5rem;
-}
 
 main .biblioteca-fondo {
   display: flex;
@@ -86,12 +74,6 @@ main .biblioteca-fondo {
   padding: 1.25rem;
   border-radius: 2px;
   gap: 1.25rem;
-}
-main .boton-buscar {
-  background-color: #2957ba;
-  width: 100%;
-  border-radius: 4px;
-  padding: 0.5rem;
 }
 
 main .section {
@@ -557,6 +539,46 @@ main p {
     box-sizing: border-box;
     background-image: url(../img/register_bg.jpg);
   }
+}
+.button-registrar {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.button-ingreso {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.boton-buscar {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.button-registrar {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.button-ingreso {
+  background-color: #2957ba;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
